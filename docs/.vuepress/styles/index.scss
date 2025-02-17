@@ -1,0 +1,45 @@
+// === colors ===
+:root {
+  --vp-c-accent: #53c4ed !important;
+  --vp-c-accent-bg: #63c5e9 !important;
+  --vp-c-accent-hover: #75cdec !important;
+  --sidebar-width: 260px;
+  --content-width: 800px;
+}
+
+nav.table-of-contents {
+  ul {
+    list-style: none;
+    max-width: 380px;
+    li {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    a {
+      text-decoration: none !important;
+    }
+  }
+}
+
+@media (min-width: 1300px) {
+  .vp-page {
+    position: absolute;
+    left: 50px;
+  }
+  nav.table-of-contents {
+    display: block;
+    max-width: 250px !important;
+    position: fixed !important;
+    top: 100px !important;
+    right: 20px !important;
+    font-size: 1rem;
+    ul {
+      li {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+  }
+}

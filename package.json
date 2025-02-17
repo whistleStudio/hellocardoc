@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
   },
   "keywords": [],
   "author": "",
@@ -11,7 +13,10 @@
   "description": "",
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-rc.19",
+    "@vuepress/plugin-back-to-top": "^2.0.0-rc.77",
+    "@vuepress/plugin-slimsearch": "^2.0.0-rc.77",
     "@vuepress/theme-default": "^2.0.0-rc.77",
+    "sass-embedded": "^1.85.0",
     "vuepress": "^2.0.0-rc.19"
   }
 }
