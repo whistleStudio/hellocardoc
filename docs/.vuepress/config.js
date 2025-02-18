@@ -3,11 +3,7 @@ import { defaultTheme } from '@vuepress/theme-default'
 import { defineUserConfig } from 'vuepress'
 import { backToTopPlugin } from '@vuepress/plugin-back-to-top'
 import { slimsearchPlugin } from '@vuepress/plugin-slimsearch'
-/* 
-		<meta http-equiv="Pragma" content="no-cache" />
-		<meta http-equiv="Cache-Control" content="no-cache" />
-		<meta http-equiv="Expires" content="0" />
-*/
+
 export default defineUserConfig({
   bundler: viteBundler(),
   title: "HelloCar 教程",
@@ -21,7 +17,7 @@ export default defineUserConfig({
     logo: "/images/cfdsxdoc-icon.png",
     logoAlt: "[当前网络不佳]",
     contributors: "Whistle Wang",
-
+    sidebarDepth: 0,
     sidebar: [
       {
         text: "准备工作",
@@ -45,19 +41,18 @@ export default defineUserConfig({
         link: "/basic/沿墙行走机器人.md",
       },
       {
-        text: "巡线机器人",
-        link: "/basic/巡线机器人.md",
+        text: "跟随机器人",
+        link: "/basic/跟随机器人.md",
       },
       {
         text: "光强检测机器人",
-        link: "/basic/巡线机器人.md",
+        link: "/basic/光强检测机器人.md",
       },
       {
-        text: "跟随机器人",
+        text: "巡线机器人",
         link: "/basic/巡线机器人.md",
       },
-    ],
-    sidebarDepth: 0
+    ]
   }),
 
   base: "/tutorial/hellocardoc/",
