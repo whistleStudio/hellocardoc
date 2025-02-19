@@ -13,6 +13,7 @@ docs/.vuepress/dist/
 *.pdf
 *.sb3
 *.mp4
+*.ai
 
 # local env files
 .env.local
