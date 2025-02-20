@@ -25,7 +25,6 @@ export default defineUserConfig({
         children: [
           {text: "快速索引", link: "/getting-started/快速索引.md"},
           {text: "编程软件", link: "/getting-started/编程软件.md"},
-          {text: "材料清单", link: "/getting-started/材料清单.md"},
           {text: "结构搭建", link: "/getting-started/结构搭建.md"},
           {text: "注意事项", link: "/getting-started/注意事项.md"},
           {text: "服务支持", link: "/getting-started/服务支持.md"}
