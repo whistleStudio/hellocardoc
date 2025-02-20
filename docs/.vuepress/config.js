@@ -30,6 +30,9 @@ export default defineUserConfig({
           {text: "服务支持", link: "/getting-started/服务支持.md"}
         ]
       },
+      { 
+        text: "—— 基础（小学）——",
+      },
       {
         text: "避障机器人",
         link: "/basic/避障机器人.md",
@@ -50,6 +53,9 @@ export default defineUserConfig({
       {
         text: "巡线机器人",
         link: "/basic/巡线机器人.md",
+      },
+      { 
+        text: "—— 进阶（中学）——",
       },
     ]
   }),

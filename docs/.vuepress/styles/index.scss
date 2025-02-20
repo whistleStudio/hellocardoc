@@ -22,6 +22,11 @@ nav.table-of-contents {
   }
 }
 
+.vp-sidebar-items>li>p {
+  font-size: 0.9rem !important;
+  opacity: 0.7 !important;
+}
+
 @media (min-width: 1300px) {
   .vp-page {
     position: absolute;
