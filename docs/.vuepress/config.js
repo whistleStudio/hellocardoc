@@ -57,6 +57,14 @@ export default defineUserConfig({
       { 
         text: "—— 进阶（中学）——",
       },
+      {
+        text: "卡片检测机器人",
+        link: "/advanced/卡片检测机器人.md"
+      },
+      {
+        text: "模拟道路行驶机器人",
+        link: "/advanced/模拟道路行驶机器人.md"
+      }
     ]
   }),
 
